@@ -7,12 +7,12 @@ np.set_printoptions(threshold=np.inf)
 
 def mainmagnus(stri):
     # Initial DNA Sequence (can be upper or lower case)
-    inputfilename='e'+stri+'.txt'
+    inputfilename='testb'+stri+'.txt'
     file = open(inputfilename, "r")
     dna = file.read()
 
     #Output file
-    outputfilename='out'+stri+'.txt'
+    outputfilename='bacoutput'+stri+'.txt'
     output = open(outputfilename, "w")
 
     #testing
@@ -107,7 +107,7 @@ def mainmagnus(stri):
                 break
 
         counter = 0
-        maxds = 4**N-1
+        maxds = 4**N
         while counter<mvl:
             for ds in range(0,maxds):
                 s = numberToBase(ds,4)
@@ -146,7 +146,7 @@ def mainmagnus(stri):
 
 
 
-for j in range(11,70):
+for j in range(1,2):
     mainmagnus(str(j))
 
 
