@@ -1,5 +1,3 @@
-README:
-
 This is the code accompanying the paper "Magnus Representation of Genome Sequences". (https://www.biorxiv.org/content/10.1101/588582v1)
 
 e1 to e69 are the genome sequences for the 69 filoviruses (data from GenBank).
